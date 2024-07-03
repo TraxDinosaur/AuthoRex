@@ -7,10 +7,10 @@ uri = """YOUR_MONGO_DB_URL"""
 
 def genOTP(Number):
     """
-    Generate an OTP for the provided phone number and store it in the database.
+    Generate an OTP for the provided number and store it in the database.
 
     Parameters:
-    Number (str): The phone number for which the OTP is generated.
+    Number (str): The number for which the OTP is generated.
 
     Returns:
     str: Success message with the generated OTP or error message if the number is already in use.
@@ -35,10 +35,10 @@ def genOTP(Number):
 
 def authOTP(Number, OTP):
     """
-    Authenticate the provided OTP for the given phone number.
+    Authenticate the provided OTP for the given number.
 
     Parameters:
-    Number (str): The phone number to authenticate the OTP for.
+    Number (str): The number to authenticate the OTP for.
     OTP (int): The OTP to be authenticated.
 
     Returns:

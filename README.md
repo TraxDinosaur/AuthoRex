@@ -4,8 +4,8 @@ AuthoRex is a Python package for generating and authenticating OTPs (One-Time Pa
 
 ## Features
 
-- Generate OTPs for given phone numbers.
-- Authenticate OTPs for given phone numbers.
+- Generate OTPs.
+- Authenticate OTPs.
 - Uses MongoDB for storing OTPs securely.
 
 ## Installation
@@ -31,26 +31,26 @@ from AuthoRex import genOTP, authOTP
 
 ### Generating an OTP
 
-Generate an OTP for a given phone number:
+Generate an OTP for a given number:
 
 ```python
 # Using the package import
-print(AuthoRex.genOTP("1234567890"))
+print(AuthoRex.genOTP("123"))
 
 # Using the function import
-print(genOTP("1234567890"))
+print(genOTP("123"))
 ```
 
 ### Authenticating an OTP
 
-Authenticate an OTP for a given phone number:
+Authenticate an OTP for a given number:
 
 ```python
 # Using the package import
-print(AuthoRex.authOTP("1234567890", 123456))  # Replace 123456 with the actual OTP generated
+print(AuthoRex.authOTP("123", 123456))  # Replace 123456 with the actual OTP generated
 
 # Using the function import
-print(authOTP("1234567890", 123456))  # Replace 123456 with the actual OTP generated
+print(authOTP("123", 123456))  # Replace 123456 with the actual OTP generated
 ```
 
 ## Example
@@ -60,12 +60,12 @@ Here's a complete example of how to use AuthoRex:
 ```python
 import AuthoRex
 
-# Generate OTP for a phone number
-response = AuthoRex.genOTP("1234567890")
+# Generate OTP for a number
+response = AuthoRex.genOTP("123")
 print(response)
 
-# Authenticate OTP for the same phone number
-is_authenticated = AuthoRex.authOTP("1234567890", 123456)  # Replace 123456 with the actual OTP generated
+# Authenticate OTP for the same number
+is_authenticated = AuthoRex.authOTP("123", 123456)  # Replace 123456 with the actual OTP generated
 print("Authenticated" if is_authenticated else "Authentication Failed")
 ```
 
