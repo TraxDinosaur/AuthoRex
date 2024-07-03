@@ -2,7 +2,7 @@ import setuptools
 
 # Package metadata
 NAME = "AuthoRex"
-VERSION = "1.0.1"
+VERSION = "1.0.2"
 DESCRIPTION = "A package for generating and authenticating OTPs using MongoDB."
 URL = "https://github.com/TraxDinosaur/AuthoRex"
 AUTHOR = "TraxDinosaur"
