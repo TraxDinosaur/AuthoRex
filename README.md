@@ -75,7 +75,7 @@ AuthoRex uses MongoDB to store OTPs. Make sure you have a MongoDB instance runni
 
 ## License
 
-This project is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. See the [LICENSE](https://github.com/TraxDinosaur/AuthoRex/blob/main/LICENSE) file for more details.
 
 ## Author
 

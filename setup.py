@@ -31,7 +31,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: Creative Commons Attribution-ShareAlike 4.0 International License",
+        "License :: OSI Approved",
         "Operating System :: OS Independent",
     ],
     keywords=KEYWORDS,
