@@ -1,3 +1,6 @@
 __pycache__/
 .idea/
 test.py
+AuthoRex.egg-info/
+build/
+dist/

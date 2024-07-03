@@ -2,7 +2,7 @@ from pymongo import MongoClient
 import random
 
 # MongoDB URI
-uri = """mongodb+srv://corerealrex:trex123@core.x48yppq.mongodb.net/?retryWrites=true&w=majority&appName=Core"""
+uri = """YOUR_MONGO_DB_URL"""
 
 
 def genOTP(Number):
